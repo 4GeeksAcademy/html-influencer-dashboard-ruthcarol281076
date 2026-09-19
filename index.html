@@ -115,7 +115,7 @@
                                 <p class="text-sm font-bold text-emerald-700">4,10x ROI</p>
                             </div>
                             <dl class="grid grid-cols-1 gap-3 text-sm sm:grid-cols-3">
-                                <div><dt class="text-slate-500">Conversión</dt><dd class="font-semibold text-slate-950">0,142%</dd></div>
+                                <div><dt class="text-slate-500">Conversión</dt><dd class="font-semibold text-slate-950">0,144%</dd></div>
                                 <div><dt class="text-slate-500">Engagement</dt><dd class="font-semibold text-slate-950">4,9%</dd></div>
                                 <div><dt class="text-slate-500">Ingresos / costes</dt><dd class="font-semibold text-slate-950">8.200 / 2.000 EUR</dd></div>
                             </dl>
@@ -154,6 +154,121 @@
                 <p class="text-sm font-semibold uppercase tracking-wide text-rose-700">Bloque inferior</p>
                 <h2 id="operations-title" class="mt-1 text-xl font-bold text-slate-950 sm:text-2xl">Detalles operacionales y desglose por producto</h2>
             </header>
+            <article class="rounded-2xl border border-slate-200 bg-white shadow-sm">
+                <header class="border-b border-slate-200 p-5">
+                    <h3 class="text-lg font-bold text-slate-950">Tabla analítica de campañas y productos</h3>
+                    <p class="mt-1 text-sm text-slate-600">Base operacional con ingresos brutos, comisión fija del 15% y retorno por coste de campaña.</p>
+                </header>
+                <div class="overflow-x-auto">
+                    <table class="min-w-[920px] divide-y divide-slate-200 text-left text-sm">
+                        <caption class="sr-only">Desglose de campañas por producto, plataforma, alcance, conversiones, engagement, ingresos y retorno.</caption>
+                        <thead class="bg-slate-100 text-xs font-bold uppercase tracking-wide text-slate-600">
+                            <tr>
+                                <th class="px-5 py-4" scope="col">Producto</th>
+                                <th class="px-5 py-4" scope="col">Plataforma asociada</th>
+                                <th class="px-5 py-4" scope="col">Métrica de anuncio</th>
+                                <th class="px-5 py-4" scope="col">Engagement producto/canal</th>
+                                <th class="px-5 py-4" scope="col">Ingresos brutos</th>
+                                <th class="px-5 py-4" scope="col">Comisión 15%</th>
+                                <th class="px-5 py-4" scope="col">Ratio de retorno</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100 bg-white text-slate-700">
+                            <tr>
+                                <th class="px-5 py-4 font-semibold text-slate-950" scope="row">Producto A</th>
+                                <td class="px-5 py-4">Instagram</td>
+                                <td class="px-5 py-4">60.000 alcance / 100 conversiones</td>
+                                <td class="px-5 py-4">6,8%</td>
+                                <td class="px-5 py-4 font-medium text-slate-950">1.000 EUR</td>
+                                <td class="px-5 py-4">150 EUR</td>
+                                <td class="px-5 py-4"><span class="rounded-full bg-amber-50 px-3 py-1 font-semibold text-amber-700">2,00x</span></td>
+                            </tr>
+                            <tr>
+                                <th class="px-5 py-4 font-semibold text-slate-950" scope="row">Producto B</th>
+                                <td class="px-5 py-4">Instagram</td>
+                                <td class="px-5 py-4">25.000 alcance / 40 conversiones</td>
+                                <td class="px-5 py-4">7,9%</td>
+                                <td class="px-5 py-4 font-medium text-slate-950">4.800 EUR</td>
+                                <td class="px-5 py-4">720 EUR</td>
+                                <td class="px-5 py-4"><span class="rounded-full bg-emerald-50 px-3 py-1 font-semibold text-emerald-700">6,00x</span></td>
+                            </tr>
+                            <tr>
+                                <th class="px-5 py-4 font-semibold text-slate-950" scope="row">Producto C</th>
+                                <td class="px-5 py-4">Instagram</td>
+                                <td class="px-5 py-4">30.000 alcance / 50 conversiones</td>
+                                <td class="px-5 py-4">7,5%</td>
+                                <td class="px-5 py-4 font-medium text-slate-950">4.000 EUR</td>
+                                <td class="px-5 py-4">600 EUR</td>
+                                <td class="px-5 py-4"><span class="rounded-full bg-emerald-50 px-3 py-1 font-semibold text-emerald-700">5,00x</span></td>
+                            </tr>
+                            <tr>
+                                <th class="px-5 py-4 font-semibold text-slate-950" scope="row">Producto A</th>
+                                <td class="px-5 py-4">TikTok</td>
+                                <td class="px-5 py-4">70.000 alcance / 100 conversiones</td>
+                                <td class="px-5 py-4">8,6%</td>
+                                <td class="px-5 py-4 font-medium text-slate-950">1.000 EUR</td>
+                                <td class="px-5 py-4">150 EUR</td>
+                                <td class="px-5 py-4"><span class="rounded-full bg-amber-50 px-3 py-1 font-semibold text-amber-700">1,67x</span></td>
+                            </tr>
+                            <tr>
+                                <th class="px-5 py-4 font-semibold text-slate-950" scope="row">Producto B</th>
+                                <td class="px-5 py-4">TikTok</td>
+                                <td class="px-5 py-4">25.000 alcance / 30 conversiones</td>
+                                <td class="px-5 py-4">8,4%</td>
+                                <td class="px-5 py-4 font-medium text-slate-950">3.600 EUR</td>
+                                <td class="px-5 py-4">540 EUR</td>
+                                <td class="px-5 py-4"><span class="rounded-full bg-emerald-50 px-3 py-1 font-semibold text-emerald-700">5,14x</span></td>
+                            </tr>
+                            <tr>
+                                <th class="px-5 py-4 font-semibold text-slate-950" scope="row">Producto C</th>
+                                <td class="px-5 py-4">TikTok</td>
+                                <td class="px-5 py-4">35.000 alcance / 49 conversiones</td>
+                                <td class="px-5 py-4">7,6%</td>
+                                <td class="px-5 py-4 font-medium text-slate-950">3.920 EUR</td>
+                                <td class="px-5 py-4">588 EUR</td>
+                                <td class="px-5 py-4"><span class="rounded-full bg-emerald-50 px-3 py-1 font-semibold text-emerald-700">4,90x</span></td>
+                            </tr>
+                            <tr>
+                                <th class="px-5 py-4 font-semibold text-slate-950" scope="row">Producto A</th>
+                                <td class="px-5 py-4">YouTube</td>
+                                <td class="px-5 py-4">70.000 alcance / 180 conversiones</td>
+                                <td class="px-5 py-4">4,3%</td>
+                                <td class="px-5 py-4 font-medium text-slate-950">1.800 EUR</td>
+                                <td class="px-5 py-4">270 EUR</td>
+                                <td class="px-5 py-4"><span class="rounded-full bg-sky-50 px-3 py-1 font-semibold text-sky-700">3,60x</span></td>
+                            </tr>
+                            <tr>
+                                <th class="px-5 py-4 font-semibold text-slate-950" scope="row">Producto B</th>
+                                <td class="px-5 py-4">YouTube</td>
+                                <td class="px-5 py-4">36.000 alcance / 26 conversiones</td>
+                                <td class="px-5 py-4">5,2%</td>
+                                <td class="px-5 py-4 font-medium text-slate-950">3.120 EUR</td>
+                                <td class="px-5 py-4">468 EUR</td>
+                                <td class="px-5 py-4"><span class="rounded-full bg-sky-50 px-3 py-1 font-semibold text-sky-700">3,67x</span></td>
+                            </tr>
+                            <tr>
+                                <th class="px-5 py-4 font-semibold text-slate-950" scope="row">Producto C</th>
+                                <td class="px-5 py-4">YouTube</td>
+                                <td class="px-5 py-4">65.000 alcance / 41 conversiones</td>
+                                <td class="px-5 py-4">5,1%</td>
+                                <td class="px-5 py-4 font-medium text-slate-950">3.280 EUR</td>
+                                <td class="px-5 py-4">492 EUR</td>
+                                <td class="px-5 py-4"><span class="rounded-full bg-emerald-50 px-3 py-1 font-semibold text-emerald-700">5,05x</span></td>
+                            </tr>
+                        </tbody>
+                        <tfoot class="bg-slate-950 text-sm font-bold text-white">
+                            <tr>
+                                <th class="px-5 py-4" scope="row" colspan="2">Total atribuido</th>
+                                <td class="px-5 py-4">416.000 alcance / 616 conversiones</td>
+                                <td class="px-5 py-4">6,1% promedio</td>
+                                <td class="px-5 py-4">26.520 EUR</td>
+                                <td class="px-5 py-4">3.978 EUR</td>
+                                <td class="px-5 py-4">4,28x</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </article>
         </section>
     </main>
 
