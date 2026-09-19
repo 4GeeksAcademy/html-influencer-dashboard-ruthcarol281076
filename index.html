@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dashboard analítico para gestionar comisiones, campañas y retorno por plataforma de una influencer.">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Dashboard analítico de influencer</title>
+</head>
+<body class="min-h-screen overflow-x-hidden bg-stone-50 text-slate-950 antialiased">
+    <header class="border-b border-slate-200 bg-white">
+        <nav class="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-5 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8" aria-label="Navegación principal">
+            <hgroup>
+                <p class="text-sm font-semibold uppercase tracking-wide text-rose-700">Influencer Revenue Studio</p>
+                <h1 class="mt-1 text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl">Dashboard de campañas y comisiones</h1>
+            </hgroup>
+            <ul class="flex flex-wrap gap-2 text-sm font-medium text-slate-600" aria-label="Accesos rápidos">
+                <li><a class="rounded-full border border-slate-200 px-4 py-2 transition hover:border-slate-300 hover:bg-slate-50" href="#kpis">KPIs</a></li>
+                <li><a class="rounded-full border border-slate-200 px-4 py-2 transition hover:border-slate-300 hover:bg-slate-50" href="#drivers">Drivers</a></li>
+                <li><a class="rounded-full border border-slate-200 px-4 py-2 transition hover:border-slate-300 hover:bg-slate-50" href="#operaciones">Operaciones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="mx-auto flex max-w-7xl flex-col gap-8 px-4 py-8 sm:px-6 lg:px-8">
+        <!-- Bloque superior: Indicadores primarios -->
+        <section id="kpis" class="space-y-4" aria-labelledby="kpis-title">
+            <header>
+                <p class="text-sm font-semibold uppercase tracking-wide text-rose-700">Bloque superior</p>
+                <h2 id="kpis-title" class="mt-1 text-xl font-bold text-slate-950 sm:text-2xl">Indicadores primarios</h2>
+            </header>
+        </section>
+
+        <!-- Bloque intermedio: Drivers por plataforma -->
+        <section id="drivers" class="space-y-4" aria-labelledby="drivers-title">
+            <header>
+                <p class="text-sm font-semibold uppercase tracking-wide text-rose-700">Bloque intermedio</p>
+                <h2 id="drivers-title" class="mt-1 text-xl font-bold text-slate-950 sm:text-2xl">Drivers de rendimiento y retorno</h2>
+            </header>
+        </section>
+
+        <!-- Bloque inferior: Detalles operacionales -->
+        <section id="operaciones" class="space-y-4" aria-labelledby="operations-title">
+            <header>
+                <p class="text-sm font-semibold uppercase tracking-wide text-rose-700">Bloque inferior</p>
+                <h2 id="operations-title" class="mt-1 text-xl font-bold text-slate-950 sm:text-2xl">Detalles operacionales y desglose por producto</h2>
+            </header>
+        </section>
+    </main>
+
+    <footer class="border-t border-slate-200 bg-white px-4 py-6 text-center text-sm text-slate-500 sm:px-6 lg:px-8">
+        <p>Modelo de comisión: 15% fijo por venta atribuida.</p>
+    </footer>
+</body>
+</html>
